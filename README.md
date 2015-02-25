@@ -10,8 +10,8 @@ FABMenu adds a whole new dimension to the original [FloatingActionButton](https:
 
 ## Requirements
 
-API 14+
-[FloatingActionButton](https://github.com/makovkastar/FloatingActionButton)
+* API 14+
+* [FloatingActionButton](https://github.com/makovkastar/FloatingActionButton)
 
 ## Installation
 
@@ -24,10 +24,10 @@ setupFABMenu(FloatingActionButton menuBase, int[] menuItemDrawables, int menuIte
 ```
 
 Use the above function to create a menu for your FAB.
-menuBase - The FAB you want to add menu to
-menuItemDrawables - List of the drawables you want to add to the menu
-menuItemStyle - Style the menu items your way
-menuItemClickListener - Handle the menu item that is selected. The 'id' of the menu item is its index in the 'menuItemDrawables' array
+* menuBase - The FAB you want to add the menu to
+* menuItemDrawables - List of the drawables you want to add to the menu
+* menuItemStyle - Style the menu items your way
+* menuItemClickListener - Handle the menu item that is selected. The 'id' of the menu item is its index in the 'menuItemDrawables' array
 
 See the example for better understanding
 
