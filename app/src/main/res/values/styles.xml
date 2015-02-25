@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/primaryAccent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+
+    <style name="AppTheme.FABMenu">
+        <item name="fab_shadow">true</item>
+        <item name="fab_colorNormal">?colorPrimary</item>
+        <item name="fab_colorPressed">?colorAccent</item>
+        <item name="fab_colorRipple">?colorAccent</item>
+    </style>
+
+</resources>
